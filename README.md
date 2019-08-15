@@ -1,6 +1,6 @@
 # fitness-tracking
 
-For an example checkout the [demo notebook](https://github.com/timaraxian/fitness-tracking/blob/master/demo)
+For an example checkout the [demo notebook](https://github.com/timaraxian/fitness-tracking/blob/master/demo/demo_weight_calories.ipynb)
 
 ### What is needed in order to use this notebook?
 
@@ -80,3 +80,4 @@ ts,weight_am,weight_pm,bodyfat
 ### Sources
 [Basal Metabolic Rate](https://en.wikipedia.org/wiki/Basal_metabolic_rate)
 [Total Daily Energy Expenditure & Basal Metabolic Rate Calculator](https://goodcalculators.com/tdee-bmr-calculator/)
+	
