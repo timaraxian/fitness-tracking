@@ -1,5 +1,6 @@
-
 # fitness-tracking
+
+For an example checkout the [demo notebook](https://github.com/timaraxian/fitness-tracking/blob/master/demo)
 
 ### What is needed in order to use this notebook?
 
@@ -20,6 +21,8 @@
 - `fill_missing_days` boolean flag if you want the chart to linear interpolate many skipped days
 - `calories_path` path to the calories csv file
 - `weight_path` path to the weight csv file
+- `planned_deficit` how many calories you want to be in deficit everyday
+- `use_bodyfat` even if bodyfat is supplied in the csv you can choose to use the mifflin calculation of basal metabolic rate by setting this to false.
 
 #### Calories csv
 
@@ -75,5 +78,5 @@ ts,weight_am,weight_pm,bodyfat
 	There is a variable `fill_missing_days` which can be set to `True` which will then linear interpolate all of the missing dates, however this might have unexpected results
 
 ### Sources
-// todo
-	
+[Basal Metabolic Rate](https://en.wikipedia.org/wiki/Basal_metabolic_rate)
+[Total Daily Energy Expenditure & Basal Metabolic Rate Calculator](https://goodcalculators.com/tdee-bmr-calculator/)
